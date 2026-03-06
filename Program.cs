@@ -111,6 +111,7 @@ else
 //Classificando a faixa etária
 /*Console.Write("Digite a sua idade: ");
 int idade = int.Parse(Console.ReadLine());
+Console.Clear();
 
 if (idade <= 12)
 {
@@ -127,5 +128,204 @@ else if (idade >= 18 && idade <= 59)
 else
 {
     Console.WriteLine("Classificação: Idoso");
+}
+*/
+
+
+//Switch - case:
+/*Console.WriteLine("\nMENU:");
+Console.WriteLine("1 - Ver produtos");
+Console.WriteLine("2 - Fazer pedido");
+Console.WriteLine("0 - Sair");
+Console.Write("Escolha uma opção: ");
+
+int opcao = int.Parse(Console.ReadLine());
+
+Console.Clear();
+
+switch (opcao)
+{
+    case 1:
+    Console.WriteLine("Mostrando produtos...");
+    break;
+    case 2:
+    Console.WriteLine("Pedido realizado");
+    break;
+    case 0:
+    Console.WriteLine("Saindo...");
+    break;
+    default:
+    Console.WriteLine("Opação inválida");
+    break;
+}
+*/
+
+
+//Calculadora de operações básicas:
+/*Console.WriteLine("\nMenu: ");
+Console.Write("Digite o primeiro número: ");
+int primeiroNumero = int.Parse(Console.ReadLine());
+
+Console.Write("Digite o segundo número: ");
+int segundoNumero = int.Parse(Console.ReadLine());
+
+Console.Write("Digite a operação (+, -, * e /): ");
+string operacao = Console.ReadLine();
+
+switch(operacao)
+{
+    case "+":
+    Console.WriteLine("Resultado: " + (primeiroNumero + segundoNumero));
+    break;
+
+    case "-":
+    Console.WriteLine("Resultado: " + (primeiroNumero - segundoNumero));
+    break;
+
+    case "*":
+    Console.WriteLine("Resultado: " + (primeiroNumero * segundoNumero));
+    break;
+
+    case "/":
+    Console.WriteLine("Resultado: " + (primeiroNumero / segundoNumero));
+    break;
+
+    default:
+    Console.WriteLine("Operação inválida");
+    break;
+}*/
+
+
+//Saudação personalizada:
+/*Console.WriteLine("1 - Manhã");
+Console.WriteLine("2 - Tarde");
+Console.WriteLine("3 - Noite");
+Console.Write("\nQue momento do dia é agora?: ");
+int momentoDia = int.Parse(Console.ReadLine());
+
+Console.Write("Qual o seu nome?: ");
+string nome = Console.ReadLine();
+
+switch(momentoDia)
+{
+    case 1:
+    Console.WriteLine($"Bom dia, {nome}");
+    break;
+
+    case 2:
+    Console.WriteLine($"Boa tarde, {nome}");
+    break;
+
+    case 3:
+    Console.WriteLine($"Boa noite, {nome}");
+    break;
+
+    default:
+    Console.WriteLine("Opção inválida");
+    break;
+}
+*/
+
+
+//Sistema de recompensa:
+/*Console.Write("Digite o código de recompensa (Dobrar, Curar, Ouro, Especial): ");
+string codigo = Console.ReadLine();
+
+string mensagem = codigo switch
+{
+    "Dobrar" => "Você ganhou 2x EXP por 1 hora",
+    "Curar" => "Poção de cura adquirida!",
+    "Ouro" => "+1000 moedas de ouro!",
+    "Especial" => "Item lendário desbloqueado!",
+    _ => "Recompensa indisponível."
+};
+
+Console.WriteLine(mensagem);
+*/
+
+
+//Refatorando a organização de livros:
+/*Console.WriteLine("Digite o código do livro: ");
+int codigo = int.Parse(Console.ReadLine());
+ 
+switch (codigo / 100)
+{
+    case 1:
+        Console.WriteLine("Ficção Científica");
+        break;
+    case 2:
+        Console.WriteLine("Literatura Clássica");
+        break;
+    case 3:
+        Console.WriteLine("Fantasia");
+        break;
+    case 4:
+        Console.WriteLine("Romance");
+        break;
+    case 5:
+        Console.WriteLine("Suspense/Mistério");
+        break;
+    case 6:
+        Console.WriteLine("Não Ficção");
+        break;
+    case 7:
+        Console.WriteLine("Biografias/Memórias");
+        break;
+    case 8:
+        Console.WriteLine("Distopia");
+        break;
+    case 9:
+        Console.WriteLine("Infantojuvenil");
+        break;
+    default:
+        Console.WriteLine("Código inexistente");
+        break;
+}
+*/
+
+
+//Autentificação de usuário:
+/*string ADMIN_USER = "Admin";
+ 
+Console.WriteLine("Sistema de Autenticação");
+Console.WriteLine("-----------------------");
+Console.Write("Digite seu nome de usuário: ");
+ 
+string username = Console.ReadLine();
+ 
+if (username == ADMIN_USER)
+{
+    Console.WriteLine($"Bem-vindo, {username}!");
+}
+ 
+else
+{
+    Console.WriteLine("Usuário não cadastrado.");
+    Console.WriteLine("Opções disponíveis:");
+    Console.WriteLine("[1] Cadastrar novo usuário");
+    Console.WriteLine("[2] Acessar como convidado");
+    Console.WriteLine("[3] Sair");
+ 
+    int opcao = int.Parse(Console.ReadLine());
+ 
+    switch (opcao)
+    {
+        case 1:
+            Console.WriteLine($"Novo usuário '{username}' cadastrado com sucesso!");
+            break;
+ 
+        case 2:
+            Console.WriteLine("Acesso concedido como convidado.");
+            break;
+ 
+        case 3:
+            Console.WriteLine("Saindo do sistema...");
+            Environment.Exit(0);
+            break;
+ 
+        default:
+            Console.WriteLine("Opção inválida. O sistema será encerrado.");
+            break;
+    }
 }
 */
