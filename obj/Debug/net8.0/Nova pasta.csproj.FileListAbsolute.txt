@@ -12,3 +12,4 @@ C:\Users\lucas.oliveira\OneDrive - Mttechne\Área de Trabalho\Projetos\Praticand
 C:\Users\lucas.oliveira\OneDrive - Mttechne\Área de Trabalho\Projetos\Praticando C#\obj\Debug\net8.0\Nova pasta.pdb
 C:\Users\lucas.oliveira\OneDrive - Mttechne\Área de Trabalho\Projetos\Praticando C#\obj\Debug\net8.0\Nova pasta.genruntimeconfig.cache
 C:\Users\lucas.oliveira\OneDrive - Mttechne\Área de Trabalho\Projetos\Praticando C#\obj\Debug\net8.0\ref\Nova pasta.dll
+C:\Users\lucas.oliveira\OneDrive - Mttechne\Área de Trabalho\Projetos\Praticando C#\obj\Debug\net8.0\Nova pasta.sourcelink.json
